@@ -12,6 +12,7 @@
 - 言語: Python 3.9.9
   - ライブラリ: Networkx 2.5.1, PuLP 2.5.1, NumPy 1.19.5
 - ソルバー: CPLEX 20.1.0.0
+  - [ここを参考にインストール](https://qiita.com/nanametal_/items/ab9492193bf48e29b5ea)
 
 ##  ディレクトリ構造
 
