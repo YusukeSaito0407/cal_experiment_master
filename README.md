@@ -26,32 +26,13 @@
 │  test_exact.py  -> 数値実験実行プログラム
 │  variable_constraint_count.py -> 結果集計用プログラム
 │
-├─approx_data -> 数値実験入力データディレクトリ
-│  ├─complete
-│  └─random
-├─approx_log  -> 数値実験出力データディレクトリ
-│  ├─complete
-│  │  ├─algorithm
-│  │  └─solver
-│  └─random
-│      ├─algorithm
-│      └─solver
-├─exact_data -> 数値実験入力データディレクトリ
-│  ├─complete
-│  └─random
-├─exact_log  -> 数値実験出力データディレクトリ
-│  ├─complete
-│  └─random
-├─result  -> 集計結果用ディレクトリ
 └─solve  -> アルゴリズム格納ディレクトリ
     │  approximation_algorithm.py  -> 近似解法
     │  exact_solution.py  -> MIPを解くプログラム
     │  sample_data_product.py  -> サンプルデータ作成プログラム
     │
-    ├─data  -> サンプルデータ
-    │      sample_complete_graph.txt
-    │
-    └─log  -> テストのログ
+    └─data  -> サンプルデータ
+          sample_complete_graph.txt
 ```
 
 

@@ -228,7 +228,7 @@ def multi_optimal_solution_ver_MCF(Graph, deadline=6, machine=2, log_path="sampl
     return x, variable_number, constraint_number
 
 # formulationは、0なら単品種、1なら多品種
-def optimal(dot_file_path=".\data\sample_graph.txt", deadline=6, machine=1, log_path=".\log\sample.log", formulation=0):
+def optimal(dot_file_path=".\data\sample_graph.txt", deadline=6, machine=1, log_path="sample.log", formulation=0):
     # 無向グラフの作成
     G = nx.Graph()
 
